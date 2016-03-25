@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopView">
+        <attr name="leftButtonText" format="string"/>
+        <attr name="leftButtonTextColor" format="color"/>
+        <attr name="leftButtonHeight" format="integer"/>
+        <attr name="leftButtonWidth" format="integer"/>
+        <attr name="leftButtonBackground" format="reference|color"/>
+        <attr name="leftButtonTextSize" format="dimension"/>
+
+        <attr name="titleText" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+
+        <attr name="rightButtonText" format="string"/>
+        <attr name="rightButtonTextColor" format="color"/>
+        <attr name="rightButtonHeight" format="integer"/>
+        <attr name="rightButtonWidth" format="integer"/>
+        <attr name="rightButtonBackground" format="reference|color"/>
+        <attr name="rightButtonTextSize" format="dimension"/>
+
+
+    </declare-styleable>
+</resources>
