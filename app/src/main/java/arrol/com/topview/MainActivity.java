@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         topView=(TopView)findViewById(R.id.topView);
+        //通过暴露的方法给View设上监听
         topView.setListener(new TopView.ButtonListener() {
             @Override
             public void onLeftClick() {
